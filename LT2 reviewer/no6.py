@@ -23,6 +23,7 @@ for i in range(len(stations)):
 
     if p >= 30:
         breaking += 1
+    else: breaking = 0
 
     if breaking == 2:
         print(stations[i])
